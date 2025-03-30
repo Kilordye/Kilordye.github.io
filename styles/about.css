@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f8f0ff;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidebar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #a755ff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    margin: 15px 0;
+}
+
+.sidebar-nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.sidebar-nav li a.active, 
+.sidebar-nav li a:hover {
+    color: #a755ff;
+    background-color: #f0e6ff;
+    border-radius: 5px;
+}
+
+.main-content {
+    margin-left: 220px; 
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    background: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.nav-links li a.active, 
+.nav-links li a:hover {
+    font-weight: bold;
+    color: #a755ff;
+    border-bottom: 2px solid #a755ff;
+}
+
+/* Interests Page */
+.interests {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #a755ff;
+    margin-bottom: 15px;
+}
+
+.description {
+    max-width: 700px;
+    margin: 0 auto;
+    color: gray;
+    line-height: 1.5;
+}
+
+.interests-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 220px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card p {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #a755ff;
+}
+
+/* Work Experience & Education */
+.about-section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    color: #a755ff;
+    border-bottom: 2px solid #a755ff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.experience, .education {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.experience h3, .education h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.experience p, .education p {
+    font-size: 16px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.experience strong, .education strong {
+    color: black;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+
+
