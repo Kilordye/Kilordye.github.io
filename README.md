@@ -1,9 +1,9 @@
 # Portfolio Website - Carl Dominik  
-## HTML Structure:  
 
-### Features  
+## HTML Structure:   
+
 ### [x] - Six HTML pages: Home, About, Skills, Projects, Contact, and Resume  
-### [x] - Semantic HTML for accessibility and SEO  
+### [x] - Semantic HTML for accessibility
 ### [x] - Header, navigation bar, sidebar, main content, and footer sections  
 ### [x] - Visual elements including images for projects and personal interests  
 
@@ -16,16 +16,5 @@
 ### [x] - Interactive hover effects and smooth transitions  
 ### [x] - Well-structured color scheme with readable typography  
 
-## JavaScript Functionality:  
-
-### [x] - Mobile-friendly navigation sidebar toggle  
-### [x] - Dynamic button effects for a better user experience  
-### [x] - Smooth scrolling and basic UI animations  
-
-## Responsive Design:  
-
-### [x] - The layout adjusts to different screen sizes for accessibility  
-### [x] - Mobile-first approach with media queries for larger screens  
-### [x] - Elements reflow and resize properly to maintain usability  
 
 # Created by Carl Dominik © 2025  
